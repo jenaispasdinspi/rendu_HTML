@@ -1,0 +1,192 @@
+body{
+    background-color: rgb(210, 241, 255);
+}
+
+.title{
+    font-size: 2.5vw;
+    color: rgb(0, 0, 0);    
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    margin: 1vw;
+    background-color: rgb(36, 170, 231);
+    padding: 1vw;
+    border-radius: 1vw;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.intro{
+    font-size: 1.422vw;
+    margin: 1vw;
+    padding: 1vw;
+    background-color: rgb(177, 208, 230);
+    border-radius: 1vw;
+    display: flex;
+    justify-content: start;
+    width: 35%;
+    height: 20%;
+    text-align: start;
+}
+
+.towers{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.upper{
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1vw;
+}
+
+.comp{
+    width: 99%;
+    font-size: 3vw;
+    text-align: center;
+    background-color: rgb(177, 208, 230);
+    border-radius: 1vw;
+    color: rgb(230, 193, 91);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 3px 0 rgb(197, 114, 46), -3px 0 rgb(197, 114, 46), 0 3px rgb(197, 114, 46), 0 -3px rgb(197, 114, 46), 2px 2px rgb(197, 114, 46), -2px -2px rgb(197, 114, 46), 2px -2px rgb(197, 114, 46), -2px 2px rgb(197, 114, 46);
+}
+
+.bottom{
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1vw;
+}
+
+.logo{
+    width: 20vw;
+    max-width: 20vw;
+}
+
+main{
+    display: flex;
+}
+
+.ranger{
+    width: 15vw;
+    border: 0.7vw;
+    border-style: solid;
+    border-radius: 1vw;
+    border-color: rgb(76, 123, 155);
+    background-color: rgb(177, 208, 230);
+}
+
+.ranger:hover{
+    transform: scale(1.05);
+    filter: brightness(1.2);
+}
+
+.accel{
+    width: 15vw;
+    border: 0.7vw;
+    border-style: solid;
+    border-radius: 1vw;
+    border-color: rgb(76, 123, 155);
+    background-color: rgb(177, 208, 230);
+}
+
+.accel:hover{
+    transform: scale(1.05);
+    filter: brightness(1.2);
+}
+
+.pursuit{
+    width: 15vw;
+    border: 0.7vw;
+    border-style: solid;
+    border-radius: 1vw;
+    border-color: rgb(76, 123, 155);
+    background-color: rgb(177, 208, 230);
+}
+
+.pursuit:hover{
+    transform: scale(1.05);
+    filter: brightness(1.2);
+}
+
+.jugg{
+    width: 15vw;
+    border: 0.7vw;
+    border-style: solid;
+    border-radius: 1vw;
+    border-color: rgb(76, 123, 155);
+    background-color: rgb(177, 208, 230);
+}
+
+.jugg:hover{
+    transform: scale(1.05);
+    filter: brightness(1.2);
+}
+
+.mini{
+    width: 15vw;
+    border: 0.7vw;
+    border-style: solid;
+    border-radius: 1vw;
+    border-color: rgb(76, 123, 155);
+    background-color: rgb(177, 208, 230);
+}
+
+.mini:hover{
+    transform: scale(1.05);
+    filter: brightness(1.2);
+}
+
+.turret{
+    width: 15vw;
+    border: 0.7vw;
+    border-style: solid;
+    border-radius: 1vw;
+    border-color: rgb(76, 123, 155);
+    background-color: rgb(177, 208, 230);
+}
+
+.turret:hover{
+    transform: scale(1.05);
+    filter: brightness(1.2);
+}
+
+.kingpin{
+    width: 15vw;
+    border: 0.7vw;
+    border-style: solid;
+    border-radius: 1vw;
+    border-color: rgb(76, 123, 155);
+    background-color: rgb(177, 208, 230);
+}
+
+.kingpin:hover{
+    transform: scale(1.05);
+    filter: brightness(1.2);
+}
+
+.gatling{
+    width: 15vw;
+    border: 0.7vw;
+    border-style: solid;
+    border-radius: 1vw;
+    border-color: rgb(76, 123, 155);
+    background-color: rgb(177, 208, 230);
+}
+
+.gatling:hover{
+    transform: scale(1.05);
+    filter: brightness(1.2);
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
